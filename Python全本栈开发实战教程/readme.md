@@ -11,7 +11,7 @@
 
 
  
-# Python全本栈开发实战教程 
+# Python全栈开发实战教程 
 * [0. Python全本栈开发介绍](./0.md)
 * [1. WSGI与ASGI请求响应模型](./1.md)
 * [2. 轻量级Web框架Flask入门](./2.md)
