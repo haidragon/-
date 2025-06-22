@@ -11,7 +11,7 @@
 
 # Node.js 全栈开发实战教程目录
  
-* 0.  [Node.js全栈开发介绍](./0.md)
+* 0. [Node.js全栈开发介绍](./0.md)
 * 1. [Node中的请求与响应](./1.md)
 * 2. [Express处理HTTP请求](./2.md)
 * 3. [NestJS处理HTTP请求](./3.md)
