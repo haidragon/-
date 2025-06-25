@@ -1,65 +1,67 @@
+  
+# 用于方便查看回顾
+# http://securitytech.cc/ 的免费文本教程
+
+# [官网](securitytech.cc) 会长期更新工具、产品开发、产品开发教程、商业产品开发。视频教程。
+
+# [本人介绍](http://securitytech.cc/about)
+
+![公众号](https://github.com/haidragon/haidragon/blob/main/gzh.png)
+
 # Ruby后端全栈开发实战教程 
-* 0. Ruby后端开发与技术栈
-* 1. Ruby环境安装与介绍
-* 2. Ruby基础语法与对象模型
-* 3. 原生Ruby实现HTTP服务
-* 4. Sinatra快速构建轻量服务
-* 5. Rails初始化与结构介绍
-* 6. html模版引擎与操作
-* 6. Rails的MVC模式与约定
-* 7. Sinatra集成vue开发
-* 8. Rails集成vue开发
-## *Rails 核心架构与开发实践*
-* 7. 路由系统与资源控制（RESTful）
-* 8. Controller 生命周期与 Before/After Action
-* 9. 中间件机制（Rack）与中间件栈分析
-* 10. Rails CLI 与代码生成（scaffold / generator）
-* 11. 多环境配置管理（development/test/production）
-* 12. 模块拆分与 Engines 多项目结构
-* 13. 依赖注入与服务模块（Service Objects）
-* 14. ActiveSupport 工具集与扩展
-## *进阶开发机制与通用能力*
-* 15. 参数校验与强参数机制（Strong Parameters）
-* 16. 认证与鉴权机制（Devise / JWT / OAuth）
-* 17. Rails 授权策略（Pundit / CanCanCan）
-* 18. 全局异常处理与错误响应封装
-* 19. CSRF、XSS 等安全机制内建讲解
-* 20. 文件上传（ActiveStorage / Shrine / CarrierWave）
-* 21. WebSocket 实时通信（ActionCable）
-* 22. 定时任务与异步队列（Sidekiq / Delayed Job）
-* 23. 日志系统与请求链路跟踪（Lograge / Scout）
-* 24. 自定义 Middleware 与插件系统扩展
-## *数据访问与 API 实战*
-* 25. 数据模型与 ActiveRecord 基础
-* 26. 模型关系与回调（Hooks）机制
-* 27. 数据迁移、种子、Schema 版本控制
-* 28. 查询优化与范围定义（Scopes）
-* 29. API-only 模式构建 RESTful 接口
-* 30. 使用 Grape 开发更可控的 API 服务
-* 31. GraphQL API 构建（graphql-ruby）
-* 32. Redis 与非关系型数据支持
-* 33. 响应格式封装与序列化（JBuilder / ActiveModel::Serializer）
-* 34. 元编程技巧与 DSL 编写实战
-## *微服务架构与服务治理*
-* 35. 微服务理念与 Rails 多服务拆分策略
-* 36. Grape + Sidekiq 实现 API + Job 解耦
-* 37. 使用 dry-rb 构建函数式服务组件
-* 38. 消息队列接入（Kafka / RabbitMQ + Sneakers）
-* 39. 服务注册与发现（Consul + Rails）
-* 40. 服务监控与健康检查（rack-health / Prometheus）
-## *测试、部署与 DevOps*
-* 41. 自动化测试框架（RSpec / Minitest）
-* 42. FactoryBot / Faker 测试数据管理
-* 43. 性能调优与 GC 分析（MemoryProfiler / rack-mini-profiler）
-* 44. Rails 构建与部署（Assets / Precompile / Rake）
-* 45. 使用 Capistrano 实现自动化部署
-* 46. 使用 Docker 部署 Rails 服务
-* 47. CI/CD 流水线（GitHub Actions / GitLab CI）
-* 48. Nginx + Puma + Redis 高性能部署方案
-## *实战项目篇*
-* 49. 构建一个博客 / CMS 系统
-* 50. 构建一个电商后台管理系统
-* 51. 构建一个实时聊天室（ActionCable + Redis）
-* 52. 构建一个 OAuth 第三方登录系统
-* 53. 构建一个 API-only BFF 接口服务
-* 54. 构建一个 Rails + Vue 单页应用项目
+[0. Ruby后端开发与技术栈](./0.md)
+[1. Ruby环境安装与介绍](./1.md)
+[2. Ruby基础语法与对象模型](./2.md)
+[3. 原生Ruby实现HTTP服务](./3.md)
+[4. Sinatra快速构建轻量服务](./4.md)
+[5. Rails初始化与结构介绍](./5.md)
+[6. html模版引擎与操作](./6.md)
+[6. Rails的MVC模式与约定](./6.md)
+[7. Sinatra集成vue开发](./7.md)
+[8. Rails集成vue开发](./8.md)
+[9. 路由系统与资源控制](./9.md)
+[10. 控制器生命周期与回调](./10.md)
+[11. 中间件机制与栈分析](./11.md)
+[12. Rails工具与代码生成](./12.md)
+[13. 多环境配置管理操作](./13.md)
+[14. 模块拆分与多项目结构](./14.md)
+[15. 依赖注入与服务模块](./15.md)
+[16. ActiveSupport集与扩展](./16.md)
+[17. 参数校验与强参数机制](./17.md)
+[18. 认证与鉴权机制介绍](./18.md)
+[19. Sinatra与Rails授权策略](./19.md)
+[20. 全局异常处理与错误封装](./20.md)
+[21. 安全机制内建讲解与实践](./21.md)
+[22. 文件断点上传与下载](./22.md)
+[23. WebSocket实时通信](./23.md)
+[24. 定时任务与异步队列](./24.md)
+[25. 日志系统与请求链路跟踪](./25.md)
+[26. 自定义中间件与插件系统](./26.md)
+[27. 数据模型与ActiveRecord](./27.md)
+[28. 模型关系与Hooks机制](./28.md)
+[29. 数据迁移种子与Schema](./29.md)
+[30. 查询优化与范围定义](./30.md)
+[31. API-only模式构建接口](./31.md)
+[32. Grape开发可控的API服务](./32.md)
+[33. GraphQLAPI构建实例](./33.md)
+[34. Redis与非关系型数据支持](./34.md)
+[35. 响应格式封装与序列化](./35.md)
+[36. 元编程技巧与DSL编写实战](./36.md)
+[37. 微服务理念与服务拆分](./37.md)
+[38. 实现API与Job解耦操作](./38.md)
+[39. 构建函数式服务组件](./39.md)
+[40. 消息队列接入操作案例](./40.md)
+[41. 服务注册与发现案例](./41.md)
+[42. 服务监控与健康检查](./42.md)
+[43. 自动化测试框架介绍](./43.md)
+[44. 测试数据管理介绍](./44.md)
+[45. 性能调优与GC分析介绍](./45.md)
+[46. 项目构建与部署操作](./46.md)
+[47. Capistrano自动化部署](./47.md)
+[48. 使用Docker部署服务](./48.md)
+[49. CI/CD流水线介绍](./49.md)
+[50. 高性能组合部署方案](./50.md)
+* 51. 构建一个博客CMS系统
+* 52. 构建一个电商后台管理系统
+* 53. 构建一个实时聊天室系统
+* 54. 构建一个OAuth第三方登录系统
